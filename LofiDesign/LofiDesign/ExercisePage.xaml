@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="LofiDesign.ExercisePage">
+    <ContentPage.Content>
+        <Grid Margin="30,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Row="0" Grid.ColumnSpan="2" Grid.Column="0" Text="Exercise description..." />
+            <Label Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="0" Text="Effort last time" />
+            <Label Grid.Row="2" Grid.Column="0" Text="Kgs"/>
+            <Label Grid.Row="2" Grid.Column="1" Text="Reps"/>
+            <Label Grid.Row="4" Grid.Column="0" Text="Effort"/>
+            <Label Grid.Row="4" Grid.Column="1" Text="Reps"/>
+            <Entry Grid.Row="5" Grid.Column="0" Keyboard="Numeric" />
+            <Entry Grid.Row="5" Grid.Column="1" Keyboard="Numeric" />
+
+
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
